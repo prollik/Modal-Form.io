@@ -1,0 +1,113 @@
+.first_name{
+    transform-origin: bottom center;
+    animation:f_n 0.1s;
+    animation-duration:0.5s;
+}
+
+@keyframes f_n {
+    from {transform: scaleY(0) translateY(20%);opacity: 0;}
+    to {transform: scaleY(1) translate(0%); opacity: 1;}
+}
+
+.last_name{
+    transform-origin: bottom center;
+    animation:l_n 0.1s;
+    animation-duration:0.5s;
+}
+
+@keyframes l_n {
+    from {transform: scaleY(0) translateY(20%);opacity: 0;}
+    to {transform: scaleY(1) translate(0%); opacity: 1;}
+}
+
+.nationality{
+    transform-origin: bottom center;
+    animation:natin 0.1s;
+    animation-duration:0.5s;
+}
+
+@keyframes natin {
+    from {transform: scaleY(0) translateY(20%);opacity: 0;}
+    to {transform: scaleY(1) translate(0%); opacity: 1;}
+}
+
+
+.email{
+    transform-origin: bottom center;
+    animation:em 0.1s;
+    animation-duration:0.5s;
+
+}
+
+@keyframes em {
+    from {transform: scaleY(0) translateY(20%);opacity: 0;
+        animation-direction: alternate-reverse;}
+    to {transform: scaleY(1) translate(0%); opacity: 1;
+    ;}
+}
+
+.email{
+    transform-origin: bottom center;
+    animation:em 0.1s;
+    animation-duration:0.5s;
+}
+
+@keyframes em {
+    from {transform: scaleY(0) translateY(20%);opacity: 0;}
+    to {transform: scaleY(1) translate(0%); opacity: 1;}
+}
+
+.date{
+    transform-origin: bottom center;
+    animation:dat 0.1s;
+    animation-duration:0.5s;
+}
+
+@keyframes dat {
+    from {transform: scaleY(0) translateY(20%);opacity: 0;}
+    to {transform: scaleY(1) translate(0%); opacity: 1;}
+}
+
+.date{
+    transform-origin: bottom center;
+    animation:dat 0.1s;
+    animation-duration:0.5s;
+}
+
+@keyframes dat {
+    from {transform: scaleY(0) translateY(20%);opacity: 0;}
+    to {transform: scaleY(1) translate(0%); opacity: 1;}
+}
+
+#div_gender{
+    transform-origin: bottom center;
+    animation:gen 0.1s;
+    animation-duration:0.5s;
+}
+
+@keyframes gen {
+    from {transform: scaleY(0) translateY(20%);opacity: 0;}
+    to {transform: scaleY(1) translate(0%); opacity: 1;}
+}
+
+.pass{
+    transform-origin: bottom center;
+    animation:pas1 0.1s;
+    animation-duration:0.5s;
+}
+
+@keyframes pas1 {
+    from {transform: scaleY(0) translateY(20%);opacity: 0;}
+    to {transform: scaleY(1) translate(0%); opacity: 1;}
+}
+
+.pass2{
+    transform-origin: bottom center;
+    animation:pas2 15s;
+    animation-duration:0.5s;
+}
+
+@keyframes pas2 {
+    from {transform: scaleY(0) translateY(20%);opacity: 0;}
+    to {transform: scaleY(1) translate(0%); opacity: 1;}
+}

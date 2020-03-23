@@ -1,0 +1,125 @@
+
+body{
+    background: black;
+}
+
+.window{
+    /*display: flex;*/
+    max-width: 660px;
+    background: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.window_content{
+    display: flex;
+    width: auto;
+}
+
+.right_text{
+    padding-left: 62px;
+}
+
+.right{
+    height: 480px;
+}
+
+.content_right{
+    margin-top:216px;
+}
+
+.p3{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: -0.46px;
+}
+
+.p4{
+    margin-top: 12px;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -0.46px;
+}
+
+/*left saidbar*/
+.left{
+    max-width: 137.2px;
+    /*height: 480px;*/
+    background-color: #5A61ED;
+    position: relative;
+    margin: 0;
+}
+
+/*left saidba text*/
+.left_text{
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 49px;
+    line-height: 20px;
+    color: white;
+    /*border: 1px solid red;*/
+    margin-bottom: 22px;
+    margin-right: 11px;
+    -webkit-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+    -moz-writing-mode: vertical-rl;
+    width: auto;
+    height: auto;
+    transform: scale(-1, -1);
+}
+
+/*right saidbar*/
+.right{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    max-width: 522px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+/*div text(login)*/
+.log_div{
+    /*border: 1px solid black;*/
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
+
+.log{
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: -0.50px;
+}
+
+.log_a{
+    text-decoration: underline;
+    font-weight: 600;
+    letter-spacing: 0.20px;
+    color: #5A61ED;
+}
+
+.log_div{
+    margin-top: 150px;
+    padding-left: 18px;
+}
+
+.log{
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: -0.30px;
+}

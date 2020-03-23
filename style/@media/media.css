@@ -1,0 +1,364 @@
+@media only screen and (max-device-width : 768px) {
+
+    .right{
+        height: auto;
+    }
+
+    .window_content{
+        display: block;
+    }
+
+    .left_text{
+        margin: auto;
+        -webkit-writing-mode: rl-tb;
+        writing-mode: rl-tb;
+        -moz-writing-mode: rl-tb;;
+        width: auto;
+        transform: scale(1, 1);
+    }
+
+    .left{
+        max-width: 100%;
+        height: 50px;
+    }
+
+    .right{
+        max-width: 100%;
+    }
+
+    #exampleFormControlSelect1 {
+        max-width: 100%;
+    }
+
+    .nationality, .email, .date, .gender, .pass, .pass2{
+        margin-top: 20px;
+    }
+
+    .form-control {
+        height: 30px;
+    }
+
+    /*div text(login) +but*/
+    .log_div{
+        margin-bottom: 30px;
+        margin-top: 100px;
+    }
+
+    .div_form {
+        max-width: 95%;
+    }
+
+    .signature{
+        margin-bottom: 10px;
+    }
+
+
+
+    #gender{
+        max-width: 100%;
+        height: auto;
+    }
+
+
+
+    .radio-inline {
+        height: 25px;
+        padding-bottom: 5px;
+        padding-top: 0;
+        padding-left: 28px;
+    }
+
+    .radio-inline:before{
+        width: 25px;
+        height: 25px;
+        left: 0;
+        bottom: 0;
+        padding-right: 10px;
+    }
+
+    .radio-inline:after{;
+        width: 15px;
+        height: 15px;
+        left: 5px;
+        bottom: 5px;
+    }
+    label {
+        margin-bottom: 2px;
+    }
+}
+
+@media only screen and (max-device-width : 552px) {
+
+    .form-group_left {
+        width: 90%;
+    }
+
+    .form-group_right {
+        width: 90%;
+    }
+
+    .first_name, .last_name, .nationality, .email, .date, .gender, .pass, .pass2 {
+        margin: auto;
+    }
+
+    .first_name, .last_name, .nationality, .email, .date, .gender, .pass, .pass2{
+        margin-top: 10px;
+    }
+
+    #btn{
+        width: 134px;
+    }
+
+    .text1 {
+        margin-top: 5px;
+    }
+
+    .log_div {
+        margin-top: 50px;
+    }
+
+    .signature {
+        margin-bottom: 0;
+    }
+
+    .log_div {
+        margin-top: 10px;
+    }
+
+}
+
+@media only screen and (max-device-height : 655px) {
+
+    .window_content {
+        display: block;
+    }
+
+    .left_text {
+        margin: auto;
+        -webkit-writing-mode: rl-tb;
+        writing-mode: rl-tb;
+        -moz-writing-mode: rl-tb;
+        width: auto;
+        transform: scale(1, 1);
+    }
+
+    .signature {
+        margin-bottom: 0;
+    }
+
+    .right {
+        height: auto;
+        max-width: 100%;
+    }
+
+    .left {
+        max-width: 100%;
+    }
+
+    .log_div {
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+
+    .first_name, .last_name, .nationality, .email, .date, .gender, .pass, .pass2 {
+        margin-top: 0;
+    }
+
+    .shake {
+        height: 15px;
+    }
+
+    .p1, .p2 {
+        line-height: 18px;
+    }
+
+    /*.form-control {*/
+        /*height: 30px;*/
+    /*}*/
+
+    .text1 {
+        margin-top: 0;
+    }
+
+    .left_text {
+        font-size: 30px;
+        line-height: 15px;
+    }
+
+    .signature {
+        margin-bottom: 0;
+    }
+
+    .log_div {
+        margin-bottom: 10px;
+        margin-top: 15px;
+    }
+
+    .left {
+        height: 40px;
+    }
+
+    .national_email, .data_gender {
+        margin-top: 0;
+    }
+
+    /*#male, #female{*/
+        /*border: 1px solid black;*/
+    /*}*/
+
+    /*.radio-inline{*/
+        /*height: 20px;*/
+        /*padding-top: 0px;*/
+        /*padding-left: 16px;*/
+        /*border: 1px solid black;*/
+        /*position: relative;*/
+        /*!*padding-bottom: -5px;*!*/
+        /*!*margin-top: 10px;*!*/
+        /*margin-bottom: 10px;*/
+        /*letter-spacing: -1.0px;*/
+    /*}*/
+    /*#gender{*/
+        /*height: 30px;*/
+    /*}*/
+}
+
+@media only screen and (max-device-height : 310px) {
+    .signature {
+        margin-bottom: 0;
+    }
+
+    .log_div {
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+
+    .form-control {
+        height: 15px;
+    }
+
+    .text1 {
+        margin-top: 0;
+        line-height: 0;
+    }
+
+    .left_text {
+        font-size: 20px;
+        line-height: 15px;
+    }
+
+    .signature {
+        line-height: 10px;
+        margin-bottom: 0;
+    }
+
+    .log_div {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .left {
+        height: 20px;
+    }
+
+    .p1 {
+        font-size: 15px;
+    }
+
+    /*label {*/
+        /*margin-bottom: 0;*/
+    /*}*/
+
+    .fname_lname {
+        margin-top: 0;
+    }
+
+    .national_email,
+    .data_gender {
+        margin-top: 0;
+    }
+
+    .pass_pass2 {
+        margin-top: 0;
+    }
+
+    .nationality, .email, .date, .gender, .pass, .pass2 {
+        margin-top: 0;
+    }
+
+    .log{
+        line-height: 0;
+    }
+
+    #btn {
+        line-height: 0;
+        width: 154px;
+        height: 20px;
+    }
+
+    .shake{
+        height: 15px;
+    }
+    .p1,.p2{
+        line-height: 10px;
+    }
+
+    .radio-inline{
+        height: 20px;
+        padding-bottom: 5px;
+        padding-top: 0;
+        padding-left: 18px;
+        margin-top: -5px;
+    }
+
+    .radio-inline:before{
+        width: 13px;
+        height: 13px;
+        left: 0;
+        bottom: 0;
+    }
+
+    .radio-inline:after{
+        width: 7px;
+        height: 7px;
+        left: 3px;
+        bottom: 3px;
+    }
+
+
+    #exampleFormControlSelect1 {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .form-control, #exampleFormControlSelect1  {
+        font-weight: bold;
+        height: 18px;
+        font-style: normal;
+        font-size: 9px;
+        line-height: 16px;
+        padding-left: 10px;
+    }
+
+    #gender{
+        font-size: 10px;
+    }
+
+    .radio-inline {
+        height: 8px;
+    }
+
+    .radio-inline:before{
+        width: 12px;
+        height: 12px;
+        left: 0;
+        top: 2px;
+        bottom: 0;
+    }
+
+    .radio-inline:after{
+        width: 5px;
+        height: 5px;
+        left: 3px;
+        bottom: 3px;
+    }
+}

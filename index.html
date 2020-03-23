@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-RU-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Doc</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vivus/0.4.5/vivus.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.8.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.9.1/jquery-ui.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
+
+    <link href="style/style.css" rel="stylesheet" type="text/css">
+    <link href="style/inp.index/inp.style.css" rel="stylesheet" type="text/css">
+    <link href="style/@media/media.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<div class="container window p-0">
+    <div class="window_content container-fluid p-0 w-auto">
+
+        <!--Левый сайбар-->
+        <div class="container-fluid left d-flex justify-content-end">
+            <span class="left_text">Sign up</span>
+        </div>
+
+        <!--Правый сайбар-->
+        <div class=" container right" style="overflow: hidden">
+            <object id="my-svg" type="image/svg+xml" data="style/icons/Shape.svg"></object>
+            <div class="content_right">
+            <div class="container-fluid text1">
+                <div>
+                    <div class="p1">New user</div>
+                <div class="p2">Use the form below to create your account.</div>
+            </div>
+            </div>
+                <div class="container div_form">
+
+<!--            Форма-->
+                <form id="form" action="#" method="post" onsubmit="return checkForm(this.elements)">
+
+<!--            Имя + Фамилия-->
+                    <div class="row d-flex justify-content-between fname_lname">
+<!--            Имя-->
+                        <div class="form-group first_name form-group_left">
+                            <label class="signature" for="exampleInputName1">First Name</label>
+                            <input type="text" name="first_name" class=" form-control" id="exampleInputName1" aria-describedby="namelHelp">
+                        </div>
+<!--            Фамилия-->
+                        <div class="form-group form-group_right last_name">
+                            <label class="signature" for="exampleInputName2">Last Name</label>
+                            <input type="text" name="last_name" class="form-control" id="exampleInputName2" aria-describedby="name2lHelp">
+                        </div>
+                    </div>
+
+<!--            Национальность + Емейл-->
+                    <div class="row d-flex justify-content-between national_email ">
+<!--            Национальность-->
+                        <div class="form-group form-group_left nationality">
+                            <label class="signature" for="exampleFormControlSelect1">Nationality</label>
+                            <select class="form-control" name="nationality" id="exampleFormControlSelect1">
+                                <option name="select" ></option>
+                                <option name="select" value="amer">American</option>
+                                <option name="select" value="rus">Russian</option>
+                                <option name="select" value="belarus" >Belarus</option>
+                            </select>
+                        </div>
+<!--            Емейл-->
+                        <div class="form-group form-group_right email">
+                            <label class="signature" for="exampleFormControlInput1">E-mail</label>
+                            <input type="email" name="email"  class="form-control" id="exampleFormControlInput1">
+                        </div>
+                    </div>
+
+<!--            Дата + Гендер-->
+                    <div class="row d-flex justify-content-between data_gender">
+<!--            Дата-->
+                        <div class="form-group date form-group_left date">
+                            <label class="signature" for="dobday">Date of Birth</label>
+                            <div class="d-flex justify-content-between">
+                            <select class="form-control" name="day" id="dobday"></select>
+                            <select class="form-control" name="month" id="dobmonth"></select>
+                            <select class="form-control" name="year" id="dobyear"></select>
+                            </div>
+                        </div>
+<!--            Гендер-->
+                        <div class="form-group form-group_right gender" id="div_gender" >
+                            <label class=" signature control-label col-xs-3">Gender</label>
+                            <div class="d-flex justify-content-between" id="gender">
+
+                                <div class="male">
+                                    <input id="male" type="radio" name="genderRadios" value="male">
+                                    <label class="radio-inline" for="male">Male</label>
+                                </div>
+
+                                <div class="female">
+                                        <input id="female" type="radio" name="genderRadios" value="female">
+                                    <label class="radio-inline" for="female">Female</label>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+<!--            Пароль + Подтверждение пароля-->
+                    <div class="row d-flex justify-content-between pass_pass2">
+<!--            Пароль-->
+                        <div class="form-group form-group_left pass ">
+                            <label class="signature control-label col-xs-3" for="inputPassword">Password</label>
+                            <div class="col-xs-9">
+                                <input type="password" class="form-control" id="inputPassword">
+                            </div>
+                        </div>
+
+<!--            Подтверждение пароля-->
+                        <div class="form-group form-group_right pass2">
+                            <label class="signature control-label col-xs-3" for="confirmPassword">Confirm Password</label>
+                            <div class="col-xs-9">
+                                <input type="password" name="password" class="form-control" id="confirmPassword">
+                            </div>
+                        </div>
+                    </div>
+
+                <!--Вход в аккаунт + кнопка-->
+                    <div class="row p-0 d-flex log_div justify-content-between">
+                        <div style="margin-left: -1px">
+                            <span class="log">Have an account? <a href="#" class="log_a">Login</a></span>
+                        </div>
+<!--            Кнопка-->
+                        <div class="shake p-0">
+                            <button id="btn" type="submit" class=" btn btn-primary">Complete Signup</button>
+                        </div>
+                    </div>
+                    
+                </form>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="js/1.js"></script>
+<script type="text/javascript" src="js/validator.min.js"></script>
+<script type="text/javascript" src="js/dobpicker.js"></script>
+<script type="text/javascript" src="js/svg.js"></script>
+
+</body>
+</html>
